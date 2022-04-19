@@ -61,6 +61,7 @@ body {
     align-items: center;
     justify-content: center;
     list-style-type: none;
+    margin-bottom: 0;
 }
 
 .menu-list-items {
@@ -113,7 +114,7 @@ body {
 }
 
 .mega-link:hover {
-    text-decoration: underline;
+
     color: $main-color;
 }
 
@@ -380,6 +381,10 @@ body {
 
 }
 
+.cart-link-text1 {
+    margin-bottom: -1px;
+}
+
 .product-card:hover .cart-box {
     display: flex;
 }
@@ -548,6 +553,11 @@ body {
     padding: 16px 18px;
     cursor: pointer;
     border-radius: 0px 50px 50px 0;
+}
+
+.subscribe-form-button:hover {
+    box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+
 }
 
 .footer-social {
