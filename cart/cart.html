@@ -53,8 +53,9 @@
                                 </div>
                             </div>
                         </li>
-                        <li><a href="registration.html"><img src="../images/4.svg" alt="main" class="menu-svg"></a></li>
-                        <li><a href="../cart/cart.html"><img src="../images/5.svg" alt="main" class="menu-svg"></a></li>
+                        <li><a href="../registration/registration.html"><img src="../images/4.svg" alt="main"
+                                    class="menu-svg"></a></li>
+                        <li><a href="cart.html"><img src="../images/5.svg" alt="main" class="menu-svg"></a></li>
                     </ul>
 
 
@@ -66,7 +67,7 @@
     <section>
         <div class="arrivals arrivals-registration">
             <div class="arrivals-content container">
-                <h2 class="arrivals-content-title"> NEW ARRIVALS </h2>
+                <h2 class="arrivals-content-title"> SHOPPING CART </h2>
                 <div class="arrivals-content-links">
                     <!--<a href="../index.html" class="arrivals-link">home</a> /
                     <a href="product.html" class="arrivals-link">man</a> /
@@ -76,88 +77,101 @@
 
         </div>
     </section>
-    <section class="registration-section">
-        <div class="registration container grid">
-            <form class="row g-3 needs-validation" novalidate>
-                <p class="form-title">Your Name</p>
-                <div class="mb-3">
-                    <label for="formGroupExampleInput" class="form-label"></label>
-                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="First name">
-                </div>
-                <div class="mb-3">
-                    <label for="formGroupExampleInput2" class="form-label"></label>
-                    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Last name">
-                </div>
-                <div class="form-check-box">
-                    <div class="form-check">
-                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                        <label class="form-check-label" for="flexRadioDefault1">
-                            Male
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2"
-                            checked>
-                        <label class="form-check-label" for="flexRadioDefault2">
-                            Female
-                        </label>
-                    </div>
-                </div>
-                <p class="form-title">Login details</p>
-                <div class="mb-3">
+    <section>
+        <div class="container cartpage grid">
+            <div class="cartpage-content">
+                <div class="cartpage-cards">
+                    <div class="cartpage-item">
+                        <div class="cartpage-cards-img"><img src="../images/cartman1.jpg" alt="cartman1"
+                                class="cartpage-img">
+                        </div>
 
-                    <label for="exampleInputEmail1" class="form-label"></label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                        placeholder="Email address">
+                        <div class="cartpage-cards-text">
+                            <img src="../images/x-close.svg" alt="x-close" class="x-close">
+                            <p class="cartpage-cards-text_title">MANGO PEOPLE T-SHIRT</p>
+                            <p class="cartpage-cards-text_text">Price: <span
+                                    class="cartpage-cards-text_text_padding cartpage-cards-text_text_red">$300</span>
+                            </p>
+                            <p class="cartpage-cards-text_text">Color: <span
+                                    class="cartpage-cards-text_text_padding">Red</span></p>
+                            <p class="cartpage-cards-text_text">Size: <span class="cartpage-cards-text_text_padding">Xl
+                                </span></p>
+                            <p class="cartpage-cards-text_text">Quantity:
+                                <input id="number" type="number" min="1" max="10" value="1" class="cartpage-number">
+                            </p>
+                        </div>
+                    </div>
+                    <div class="cartpage-item">
+                        <div class="cartpage-cards-img"><img src="../images/cartman2.jpg" alt="cartman1"
+                                class="cartpage-img">
+                        </div>
+
+                        <div class="cartpage-cards-text">
+                            <img src="../images/x-close.svg" alt="x-close" class="x-close">
+                            <p class="cartpage-cards-text_title">MANGO PEOPLE T-SHIRT</p>
+                            <p class="cartpage-cards-text_text">Price: <span
+                                    class="cartpage-cards-text_text_padding cartpage-cards-text_text_red">$300</span>
+                            </p>
+                            <p class="cartpage-cards-text_text">Color: <span
+                                    class="cartpage-cards-text_text_padding">Red</span></p>
+                            <p class="cartpage-cards-text_text">Size: <span class="cartpage-cards-text_text_padding">Xl
+                                </span></p>
+                            <p class="cartpage-cards-text_text">Quantity:
+                                <input id="number" type="number" min="1" max="10" value="1" class="cartpage-number">
+                            </p>
+                        </div>
+                    </div>
                 </div>
-                <div class="mb-3">
-                    <label for="exampleInputPassword1" class="form-label"></label>
-                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-                    <p class="password_text">Please use 8 or more characters, with at least 1 number and a mixture of
-                        uppercase and lowercase
-                        letters</p>
-                </div>
-                <div class="col-12">
-                    <button class="btn btn-primary" type="submit">
-                        <p class="registration-submit">join now</p>
-                        <i class="fa fa-solid fa-arrow-right"></i>
+                <div class="cartpage-buttons">
+                    <button class="cartpage-button" type="submit">
+                        Clear shopping cart
+                    </button>
+                    <button class="cartpage-button" type="submit">
+                        Continue shopping
                     </button>
                 </div>
-            </form>
-            <div class="registration-text">
-                <h2 class="registration-text-title">LOYALTY HAS ITS PERKS</h2>
-                <p class="registration-text_text">Get in on the loyalty program where you can earn points and unlock
-                    serious perks. Starting with these as soon as you join:</p>
-                <ul class="registration-list">
-                    <li class="registration-list-item">
-                        <img src="../images/galka.svg" alt="galka" class="registration-list-item_galka">
-                        <p class="registration-list-item_text">15% off welcome offer
-                        </p>
-                    </li>
-                    <li class="registration-list-item">
-                        <img src="../images/galka.svg" alt="galka" class="registration-list-item_galka">
-                        <p class="registration-list-item_text">Free shipping, returns and exchanges on all orders
-
-                        </p>
-                    </li>
-                    <li class="registration-list-item">
-                        <img src="../images/galka.svg" alt="galka" class="registration-list-item_galka">
-                        <p class="registration-list-item_text">$10 off a purchase on your birthday
-
-                        </p>
-                    </li>
-                    <li class="registration-list-item">
-                        <img src="../images/galka.svg" alt="galka" class="registration-list-item_galka">
-                        <p class="registration-list-item_text">Early access to products</p>
-                    </li>
-                    <li class="registration-list-item">
-                        <img src="../images/galka.svg" alt="galka" class="registration-list-item_galka">
-                        <p class="registration-list-item_text">Exclusive offers & rewards</p>
-                    </li>
-                </ul>
             </div>
+            <div class="cartpage-form">
+                <form class="row g-3 needs-validation" novalidate>
+                    <p class="form-title form-title-cartpage-form">SHIPPING ADRESS</p>
+                    <div class="mb-3">
+                        <label for="formGroupExampleInput" class="form-label"></label>
+                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Bangladesh">
+                    </div>
+                    <div class="mb-3">
+                        <label for="formGroupExampleInput2" class="form-label"></label>
+                        <input type="text" class="form-control cartpage-form-control" id="formGroupExampleInput2"
+                            placeholder="State">
+                    </div>
+                    <div class="mb-3">
+                        <label for="formGroupExampleInput2" class="form-label"></label>
+                        <input type="text" class="form-control cartpage-form-control" id="formGroupExampleInput2"
+                            placeholder="Postcode / Zip">
+                    </div>
+                    <div class="col-12">
+                        <button class="cartpage-button cartpage-button_quote" type="submit">
+                            Get a quote
+                        </button>
+                    </div>
+                    <div class="chechout-box">
+                        <div class="checkout-totals">
+                            <p class="sub-total">sub-total <span class="sub-total-price">$900</span></p>
+                            <p class="grand-total">grand-total<span class="grand-total-price">$900</span></p>
+                        </div>
+
+
+                        <button class="btn btn-primary btn-checkout" type="submit">
+                            <p class="registration-submit cartpage-checkout">PROCEED TO CHECKOUT</p>
+                        </button>
+
+                    </div>
+
+                </form>
+            </div>
+
         </div>
     </section>
+
     <footer>
         <section class="subscribe">
             <div class="subscribe-items container">
