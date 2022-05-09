@@ -1887,6 +1887,12 @@ body {
 }
 
 @media (max-width: 375px) {
+  .menu-list-items_lasttwo {
+    display: none;
+  }
+  .nav-content:hover .menu-list-items_lasttwo {
+    display: block;
+  }
   .main-man {
     display: none;
   }
